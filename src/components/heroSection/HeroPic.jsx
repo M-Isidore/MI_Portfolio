@@ -13,7 +13,7 @@ function HeroPic() {
       className="h-full flex items-center justify-center"
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src="../../images/HexaPic.png"
         alt="Mokosa Isidore"
         className="max-h-[400px] w-auto rounded-full"
       />
