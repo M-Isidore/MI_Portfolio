@@ -5,6 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const skills = [
   {
@@ -30,6 +31,10 @@ const skills = [
   {
     skill: "TailWindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Firebase",
+    icon: IoLogoFirebase,
   },
 ];
 

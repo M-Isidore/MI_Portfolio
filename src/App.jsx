@@ -12,7 +12,7 @@ import SubSkills from "./components/skillsSection.jsx/SubSkills";
 
 function App() {
   return (
-    <main className="font-body overflow-auto">
+    <main className="font-body overflow-hidden">
       <NavbarMain />
       <HeroMain />
       <HeroGradient />

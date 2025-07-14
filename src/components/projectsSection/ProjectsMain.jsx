@@ -6,25 +6,25 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "My_Blog",
-    year: "May2025",
+    name: "Fast Pizza",
+    year: "January2025",
     align: "right",
     image: "../../images/website-img-1.jpg",
+    link: "https://onlypizza.netlify.app/",
+  },
+  {
+    name: "My Blog",
+    year: "May2025",
+    align: "left",
+    image: "../../images/website-img-2.jpg",
     link: "https://myblog12.netlify.app/",
   },
   {
-    name: "Academia",
-    year: "coming soon..",
-    align: "left",
-    image: "../../images/website-img-2.webp",
-    link: "#",
-  },
-  {
-    name: "Tourzania",
-    year: "coming soon..",
+    name: "Cinemate",
+    year: "March2025",
     align: "right",
     image: "../../images/website-img-3.jpg",
-    link: "#",
+    link: "https://cinemate001.netlify.app/",
   },
   {
     name: "Bank of Luck",
@@ -55,6 +55,7 @@ const ProjectsMain = () => {
               year={item.year}
               align={item.align}
               image={item.image}
+              link={item.link}
             />
           );
         })}
